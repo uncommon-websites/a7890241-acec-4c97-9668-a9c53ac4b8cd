@@ -13,16 +13,26 @@
 </script>
 
 <header class="fixed top-0 left-0 w-full z-50 px-5 py-6 md:px-10 md:py-8 flex justify-between items-start bg-white/90 backdrop-blur-sm transition-all duration-300 text-black">
-  <a href="/" class="text-xl md:text-2xl font-normal tracking-wide z-10">Snøhetta</a>
+  <a href="/" class="flex items-center gap-3 z-10 hover:opacity-70 transition-opacity">
+    <svg width="32" height="32" viewBox="0 0 97 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M22.4438 10.875C22.4438 16.8811 17.6084 21.75 11.6438 21.75C5.67908 21.75 0.84375 16.8811 0.84375 10.875C0.84375 4.86891 5.67908 0 11.6438 0C17.6084 0 22.4438 4.86891 22.4438 10.875Z" fill="currentColor"/>
+      <path d="M59.6439 10.875C59.6439 16.8811 54.8087 21.75 48.8439 21.75C42.8792 21.75 38.0439 16.8811 38.0439 10.875C38.0439 4.86891 42.8792 0 48.8439 0C54.8087 0 59.6439 4.86891 59.6439 10.875Z" fill="currentColor"/>
+      <path d="M96.8441 10.875C96.8441 16.8811 92.0089 21.75 86.0441 21.75C80.0794 21.75 75.2441 16.8811 75.2441 10.875C75.2441 4.86891 80.0794 0 86.0441 0C92.0089 0 96.8441 4.86891 96.8441 10.875Z" fill="currentColor"/>
+      <path d="M22.4438 48.3334C22.4438 54.3395 17.6084 59.2084 11.6438 59.2084C5.67908 59.2084 0.84375 54.3395 0.84375 48.3334C0.84375 42.3272 5.67908 37.4584 11.6438 37.4584C17.6084 37.4584 22.4438 42.3272 22.4438 48.3334Z" fill="currentColor"/>
+      <path d="M59.6439 48.3334C59.6439 54.3395 54.8087 59.2084 48.8439 59.2084C42.8792 59.2084 38.0439 54.3395 38.0439 48.3334C38.0439 42.3272 42.8792 37.4584 48.8439 37.4584C54.8087 37.4584 59.6439 42.3272 59.6439 48.3334Z" fill="currentColor"/>
+      <path d="M96.8441 48.3334C96.8441 54.3395 92.0089 59.2084 86.0441 59.2084C80.0794 59.2084 75.2441 54.3395 75.2441 48.3334C75.2441 42.3272 80.0794 37.4584 86.0441 37.4584C92.0089 37.4584 96.8441 42.3272 96.8441 48.3334Z" fill="currentColor"/>
+      <path d="M22.4438 85.7917C22.4438 91.7979 17.6084 96.6667 11.6438 96.6667C5.67908 96.6667 0.84375 91.7979 0.84375 85.7917C0.84375 79.7856 5.67908 74.9167 11.6438 74.9167C17.6084 74.9167 22.4438 79.7856 22.4438 85.7917Z" fill="currentColor"/>
+      <path d="M59.6439 85.7917C59.6439 91.7979 54.8087 96.6667 48.8439 96.6667C42.8792 96.6667 38.0439 91.7979 38.0439 85.7917C38.0439 79.7856 42.8792 74.9167 48.8439 74.9167C54.8087 74.9167 59.6439 79.7856 59.6439 85.7917Z" fill="currentColor"/>
+      <path d="M96.8441 85.7917C96.8441 91.7979 92.0089 96.6667 86.0441 96.6667C80.0794 96.6667 75.2441 91.7979 75.2441 85.7917C75.2441 79.7856 80.0794 74.9167 86.0441 74.9167C92.0089 74.9167 96.8441 79.7856 96.8441 85.7917Z" fill="currentColor"/>
+    </svg>
+    <span class="text-xl md:text-2xl font-normal tracking-wide">Light Room</span>
+  </a>
   
   <button class="absolute left-1/2 -translate-x-1/2 top-6 md:top-8 text-lg font-normal hover:opacity-70 transition-opacity z-10">
     Menu
   </button>
 
-  <button class="hover:opacity-70 transition-opacity z-10" aria-label="Search">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-  </button>
+  <a href="#contact" class="px-6 py-2 bg-black text-white hover:bg-gray-800 transition-colors z-10 text-sm">
+    Book Consultation
+  </a>
 </header>
